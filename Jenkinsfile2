@@ -1,6 +1,6 @@
-//this file is to trigger jenkins pipeline from github webhook and agent is docker.
+//this file is to trigger jenkins pipeline from github webhook and agent is any.
 pipeline {
-    agent docker
+    agent any
 
     // this section configures Jenkins options
     options {
